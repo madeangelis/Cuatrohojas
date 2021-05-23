@@ -1,0 +1,184 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+nav {
+  box-shadow: 0px 2px 19px 4px rgba(0, 0, 0, 0.35);
+}
+.margin-container {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+#logo {
+  height: 80px;
+}
+#links a {
+  color: black;
+}
+#links a:hover {
+  color: rgb(0, 73, 0);
+}
+#links a:active {
+  color: rgb(0, 73, 0);
+  font-weight: bold;
+  text-decoration: currentColor;
+}
+.card {
+  min-height: 310px;
+  border-color: rgb(250, 250, 250);
+  background-color: rgb(250, 250, 250);
+}
+.card-shadow {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.05);
+}
+.services h1 {
+  text-align: center;
+}
+.services {
+  font-family: "Questrial", sans-serif;
+}
+.activities {
+  padding: 30px 20px;
+  font-family: "Questrial", sans-serif;
+  margin-bottom: 30px;
+  font-size: 1.3em;
+}
+
+div #foto_planta {
+  background-image: url(../img/brote1.JPG);
+  background-size: cover;
+  background-repeat: none;
+  object-fit: cover;
+  width: 80%;
+  height: 80%;
+}
+
+.company {
+  padding-top: 70px;
+}
+.company h1 {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.company h1,
+.company h2 {
+  padding-top: 50px;
+}
+#address {
+  margin-top: 15px;
+}
+.footer-address {
+  padding-left: 0;
+  color: white;
+  font-size: 14px;
+  list-style: none;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: lightslategray;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgb(97, 97, 97);
+}
+.footer-nav {
+  padding-left: 0;
+  color: white;
+  font-size: 12px;
+}
+.display {
+  display: flex;
+}
+#deck1 {
+  margin-top: 2em;
+}
+#deck2 {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.footer-nav li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+#thankYou {
+  text-align: center;
+  height: 50vh;
+}
+
+.logo {
+  height: 20px;
+  width: 20px;
+}
+.copy {
+  margin-top: 10px;
+  color: white;
+  font-size: 12px;
+}
+.copy a {
+  text-decoration: none;
+  color: white;
+}
+.copy a:hover {
+  text-decoration: none;
+  color: rgb(146, 146, 146);
+}
+/* FEED Twitter */
+
+/* Map CSS */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 350px;
+  width: 640px;
+}
+/* .gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 350px;
+  width: 640px;
+} */
+.margin-map {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#map {
+  background-color: rgb(97, 97, 97);
+  border-bottom: 1px solid white;
+}
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 50%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+/* ---MEDIA QUERIES--- */
+@media (max-width: 767.98px) {
+  .activities {
+    text-align: center;
+  }
+  #twitter-title {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1200px) {
+}
